@@ -13,6 +13,7 @@ vespolina_product:
         identifiers:
             sku: Vespolina\ProductBundle\Document\SKUIdentifier
     product:
+        class: Application\Vespolina\ProductBundle\Document\DownloadableProduct
         form:
             type:               Application\Vespolina\ProductBundle\Form\Type\ProductFormExtendedType #vespolina.product.form.type
 #            handler_service:    vespolina.product.form.handler
