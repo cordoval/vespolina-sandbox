@@ -26,7 +26,7 @@ class ProductFormExtendedType extends ProductFormType
     public function getDefaultOptions(array $options)
     {
         return array(
-            'data_class' => 'Application\Vespolina\ProductBundle\Document\Product',
+            'data_class' => 'Application\Vespolina\ProductBundle\Document\DownloadableProduct',
         );
     }
 
