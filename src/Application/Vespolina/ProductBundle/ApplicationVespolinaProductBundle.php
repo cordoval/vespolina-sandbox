@@ -28,6 +28,6 @@ class ApplicationVespolinaProductBundle extends Bundle
      */
     public function getParent()
     {
-        return 'VespolinaProductBundle';
+        return 'VespolinaProductDownloadableBundle';
     }
 }
