@@ -26,6 +26,8 @@
         "imagine/Imagine": "dev-master",
         "mopa/bootstrap-bundle": "dev-master",
         "vespolina/vespolina-sandbox-composer": "dev-master",
+        "vespolina/product-subscription-bundle": "dev-master",
+        "vespolina/product-downloadable-bundle": "dev-master",
         "doctrine/doctrine-workflow": "dev-master",
         "twitter/bootstrap": "dev-master"
     },
