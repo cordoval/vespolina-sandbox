@@ -3,7 +3,8 @@ app/bootstrap.php.cache
 app/cache/*
 app/logs/*
 build/
-vendor/
+vendor/*
+!vendor/vendors.php
 app/config/parameters.yml
 .idea
 nbproject/
