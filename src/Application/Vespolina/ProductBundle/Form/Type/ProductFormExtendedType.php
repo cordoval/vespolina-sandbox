@@ -20,7 +20,13 @@ class ProductFormExtendedType extends ProductFormType
     public function buildForm(FormBuilder $builder, array $options)
     {
         parent::buildForm($builder, $options);
-        $builder->add('price');
+        $builder
+            ->add('name')
+            ->add('description')
+            ->add('image')
+            ->add('price')
+            ->add('file')
+        ;
     }
 
     public function getDefaultOptions(array $options)
@@ -37,6 +43,6 @@ class ProductFormExtendedType extends ProductFormType
      */
     function getName()
     {
-        return 'vespolina_product';
+        return 'vespolina_downloadable_product';
     }
 }
