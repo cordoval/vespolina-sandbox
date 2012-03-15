@@ -9,5 +9,5 @@ before_script: php vendor/vendors.php
 script: "./develop"
 
 notifications:
-  irc:
-    - "irc.freenode.org#vespolina"
+  email:
+    - cordoval@gmail.com
