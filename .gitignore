@@ -8,4 +8,3 @@ vendor/*
 app/config/parameters.yml
 .idea
 nbproject/
-sismo.config.php
