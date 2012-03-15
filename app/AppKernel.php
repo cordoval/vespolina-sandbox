@@ -31,11 +31,11 @@ class AppKernel extends Kernel
             new Application\UserBundle\UserBundle(),
             new Application\DefaultBundle\DefaultBundle(),
 
-            new Vespolina\ProductDownloadableBundle\VespolinaProductDownloadableBundle(),
             new Vespolina\ProductSubscriptionBundle\VespolinaProductSubscriptionBundle(),
             new Vespolina\CartBundle\VespolinaCartBundle(),
             new Vespolina\CustomerBundle\VespolinaCustomerBundle(),
             new Vespolina\ProductBundle\VespolinaProductBundle(),
+            new Vespolina\ProductDownloadableBundle\VespolinaProductDownloadableBundle(),
             new Vespolina\PricingBundle\VespolinaPricingBundle(),
             new Vespolina\TaxationBundle\VespolinaTaxationBundle(),
             new Vespolina\TaxonomyBundle\VespolinaTaxonomyBundle(),

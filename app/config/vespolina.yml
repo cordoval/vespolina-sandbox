@@ -6,6 +6,9 @@ vespolina_cart:
     db_driver: mongodb
 vespolina_pricing:
     db_driver: mongodb
+vespolina_product_downloadable:
+    product_class: Application\Vespolina\ProductBundle\Document\DownloadableProduct
+    #product_handler:
 vespolina_product:
     db_driver: mongodb
     product_manager:
@@ -17,7 +20,7 @@ vespolina_product:
         form:
             type:               Application\Vespolina\ProductBundle\Form\Type\ProductFormExtendedType #vespolina.product.form.type
 #            handler_service:    vespolina.product.form.handler
-            name:               vespolina.product.form
+            name:               Application\Vespolina\ProductBundle\Form\Type\ProductFormExtendedType
 vespolina_monetary:
     currency:
         base_currency:  EUR
